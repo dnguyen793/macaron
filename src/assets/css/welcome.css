@@ -1,0 +1,32 @@
+.welcomContainer{
+    background-color: lightblue;
+    font-family: 'Nunito', sans-serif;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.welcomContainer h1{
+    margin: 0;
+}
+
+.nav-bar{
+    grid-column: 4 / span 2;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar li{
+    display: inline-grid;
+    margin: 0 10px;
+}
+
+.welcome-message{
+    display: grid;
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 2;
+    align-items: center;
+}
