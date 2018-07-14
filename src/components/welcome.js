@@ -5,16 +5,16 @@ function Welcome( props ){
 
     return(
         <div className="welcomContainer">
-            <div>
-                <h1>Welcome to our Macaron page!</h1>
-            </div>
-
-            <div>
+            <div className="nav-bar">
                 <ul>
                     <li>Shop</li>
                     <li>About Us</li>
                     <li>Your Box</li>
                 </ul>
+            </div>
+
+            <div className="welcome-message">
+                <h1>Welcome to our Macaron page!</h1>
             </div>
 
         </div>
