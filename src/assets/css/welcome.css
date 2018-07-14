@@ -1,0 +1,8 @@
+.welcomContainer{
+    background-color: lightblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+.welcomContainer h1{
+    margin: 0;
+}
