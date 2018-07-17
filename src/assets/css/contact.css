@@ -37,13 +37,16 @@
 }
 
 .header{
-    color: #6a6969;
     font-size: 1.5em;
 }
 
 .para1,
 .para2{
     margin: 0;
+}
+
+.para a{
+    color: #6a6969;
 }
 
 .margin{
