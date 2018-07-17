@@ -1,0 +1,16 @@
+.nav-container{
+    display: grid;
+    justify-content: end;
+}
+
+
+.nav-container li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: black;
+}
