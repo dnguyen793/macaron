@@ -9,7 +9,7 @@ function Welcome( props ){
                 <ul>
                     <li>Shop</li>
                     <li>About Us</li>
-                    <li>Your Box</li>
+                    <li>Your Box<i className="fas fa-shopping-cart"></i></li>
                 </ul>
             </div>
 
