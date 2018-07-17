@@ -1,0 +1,84 @@
+/********************************************************/
+/*CONTACT PAGE*/
+/********************************************************/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color: #6a6969;
+
+}
+
+.image{
+    width: 100%;
+    height: 50vh;
+}
+
+.image > img{
+    width: 100%;
+}
+
+.contact-body{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 30% 50% 20%;
+}
+
+.visit-us{
+    grid-column: 1;
+}
+
+.contact-form{
+    grid-column: 2 / span 1;
+}
+
+.contact-form .header{
+    text-align: center;
+}
+
+.header{
+    font-size: 1.5em;
+}
+
+.para1,
+.para2{
+    margin: 0;
+}
+
+.para a{
+    color: #6a6969;
+}
+
+.margin{
+    margin-bottom: 5%;
+}
+
+.addressMargin{
+    margin-top: 1%;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    height: 2.3rem;
+    width: 70%;
+    margin: 3px auto;
+    font-size: 1rem;
+}
+
+.input-field #message{
+    height: 5rem;
+}
+
+button{
+    height: 2.3rem;
+    width: 7rem;
+    font-size: 1rem;
+    margin: 2% 40%;
+}
+
+.mac-img{
+    margin: auto;
+}
