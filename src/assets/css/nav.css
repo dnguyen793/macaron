@@ -1,6 +1,7 @@
 .nav-container{
     display: grid;
     justify-content: end;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -8,6 +9,7 @@
     list-style-type: none;
     display: inline-block;
     margin: 0 10px;
+    font-size: 1rem;
 }
 
 .nav-container li a{

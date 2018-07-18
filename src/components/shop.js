@@ -26,7 +26,7 @@ class Shop extends Component{
 
     handleScroll = (event) =>{
 
-        if(this.state.counter === 15){
+        if(this.state.counter === 14){
             this.setState({
                 counter: 0
             })

@@ -1,4 +1,3 @@
-import birthdayCake from '../assets/images/flavor/birthday-cake.jpeg';
 import caramelChocolate from '../assets/images/flavor/caramel_chocolat.jpg';
 import chocolate from '../assets/images/flavor/chocolate-macaron.jpg';
 import cookiesCream from '../assets/images/flavor/cookies-cream.jpg';
@@ -18,9 +17,19 @@ import ube from '../assets/images/flavor/ube-cream.jpg';
 
 export default [
     {
-        src: birthdayCake,
-        name: "Birthday Cake",
-        description: "this is a Birthday Cake flavor"
+        src: earlGrey,
+        name: "Earl Grey Jasmine",
+        description: "this is a Earl Grey Jasmine flavor"
+    },
+    {
+        src: jasmine,
+        name: "Jasmine Green Tea",
+        description: "this is a Jasmine Green Tea flavor"
+    },
+    {
+        src: lavender,
+        name: "Lavender Cream",
+        description: "this is a Lavender Cream flavor"
     },
     {
         src: caramelChocolate,
@@ -36,21 +45,6 @@ export default [
         src: cookiesCream,
         name: "Cookies Cream",
         description: "this is a Cookies Cream flavor"
-    },
-    {
-        src: earlGrey,
-        name: "Earl Grey Jasmine",
-        description: "this is a Earl Grey Jasmine flavor"
-    },
-    {
-        src: jasmine,
-        name: "Jasmine Green Tea",
-        description: "this is a Jasmine Green Tea flavor"
-    },
-    {
-        src: lavender,
-        name: "Lavender Cream",
-        description: "this is a Lavender Cream flavor"
     },
     {
         src: lemon,

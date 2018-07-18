@@ -1,6 +1,42 @@
 .macaron-container{
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
-    background-color: aquamarine;
+    height: 120%;
+    /* background-color: lightblue; */
+}
+/*****************************************************************/
+/************************** macarons.js **************************/
+/*****************************************************************/
+
+img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+/******************************************************************/
+/************************ macaron-item.js *************************/
+/******************************************************************/
+
+p.item-name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.3rem;
+}
+
+p.item-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.3rem;
+}
+
+button.add-to-box {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0.3rem;
+    border: 2px solid black;
 }

@@ -71,7 +71,7 @@ input{
     height: 5rem;
 }
 
-button{
+.btn{
     height: 2.3rem;
     width: 7rem;
     font-size: 1rem;
