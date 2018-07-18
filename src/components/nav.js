@@ -17,6 +17,9 @@ class Nav extends Component{
                         <li>
                             <Link to="/contact">Contact</Link>
                         </li>
+                        <li>
+                            <Link to="/box">Box <i className="fas fa-box-open"></i></Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
