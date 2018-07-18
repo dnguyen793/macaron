@@ -9,7 +9,7 @@ class Nav extends Component{
                 <div className="nav-container">
                     <ul>
                         <li>
-                            <Link to="/" >Welcome</Link>
+                            <Link to="/">Shop</Link>
                         </li>
                         <li>
                             <Link to="/our-macarons">Our Macarons</Link>
