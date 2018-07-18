@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/macarons.css';
 import macaronData from './macaron-data';
-import MacaronImg from './macaron-images';
+import MacaronImg from './macaron-item';
 
 export default props => {
     console.log('macaron props', props);
