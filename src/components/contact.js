@@ -8,7 +8,7 @@ class Contact extends Component{
         return(
             <div className="container">
                 <div className="image">
-                    <img src={contactImg} />
+                    <img src={contactImg} alt="contactImg"/>
                 </div>
 
                 <div className="contact-body">
@@ -72,7 +72,7 @@ class Contact extends Component{
                     </div>
 
                     <div className="mac-img">
-                        <img src={macImg} />
+                        <img src={macImg} alt="macImg"/>
                     </div>
                 </div>
             </div>

@@ -13,12 +13,16 @@ class Shop extends Component{
     }
 
     componentDidMount(){
-        window.addEventListener('scroll', this.handleScroll);
+
+        this.shopContainer.onscroll = e => {
+            console.log('SCROLL EVENT:', e);
+            this.handleScroll();
+        }
     }
 
-    componentWillUnmount(){
-        window.removeEventListener('scroll', this.handleScroll);
-    }
+    // componentWillUnmount(){
+    //     window.removeEventListener('scroll', this.handleScroll);
+    // }
 
     handleScroll = (event) =>{
 
@@ -36,8 +40,8 @@ class Shop extends Component{
 
     render(){
         return(
-            <div className="shop-container">
-                <Macarons item={this.state.counter}/>
+            <div className="shop-container" ref={e => this.shopContainer = e}>
+                <Macarons item={this.state.counter}  />
             </div>
         )
     }
