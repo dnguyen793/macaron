@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import '../assets/css/App.css';
-import { Route, withRouter} from "react-router-dom";
+import '../assets/css/App.css';
+import { Route } from "react-router-dom";
 
 import Nav from './nav';
 import Welcome from './welcome';

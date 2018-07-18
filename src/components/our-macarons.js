@@ -7,7 +7,7 @@ function ourMacaron(props){
     return(
         <div className="container">
             <div className="image">
-                <img src={macaronBanner} />
+                <img src={macaronBanner} alt="macaronBanner" />
             </div>
 
             <div className="intro">
@@ -39,7 +39,7 @@ function ourMacaron(props){
                 </div>
 
                 <div className="col s8 valign-wrapper ourMacaronsBg">
-                    <img src={macaronBg} />
+                    <img src={macaronBg} alt="macaronBackground"/>
                 </div>
             </div>
             <div className="conclusion">
