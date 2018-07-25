@@ -9,7 +9,7 @@ export default props => {
     const {description} = props.about;
 
     return (
-        <div>
+        <div className="item-container">
             <div >
                 <p className="item-name">{name}</p>
                 <p className="item-price">$3.00</p>
@@ -17,7 +17,7 @@ export default props => {
             </div>
 
             {/* <p className="item-description">{description}</p> */}
-            <div className="item-container">
+            <div className="item-img">
                 <img src={src} alt={name}/>
             </div>
         </div>
