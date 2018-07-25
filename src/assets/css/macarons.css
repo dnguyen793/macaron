@@ -1,8 +1,11 @@
 .macaron-container{
     width: 80%;
     margin: 0 auto;
-    height: 120%;
-    /* background-color: lightblue; */
+    height: 90%;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 /*****************************************************************/
 /************************** macarons.js **************************/
@@ -18,6 +21,11 @@ img {
 /******************************************************************/
 /************************ macaron-item.js *************************/
 /******************************************************************/
+.item-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 150%;
+}
 
 p.item-name {
     text-transform: uppercase;

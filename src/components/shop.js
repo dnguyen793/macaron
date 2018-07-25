@@ -6,42 +6,42 @@ import Macarons from './macarons';
 class Shop extends Component{
     constructor(props){
         super(props);
-        this.state = {
-            counter: 0
-        };
-        this.handleScroll = this.handleScroll.bind(this);
+        // this.state = {
+        //     counter: 0
+        // };
+        // this.handleScroll = this.handleScroll.bind(this);
     }
 
-    componentDidMount(){
+    // componentDidMount(){
 
-        this.shopContainer.onscroll = e => {
-            console.log('SCROLL EVENT:', e);
-            this.handleScroll();
-        }
-    }
-
-    // componentWillUnmount(){
-    //     window.removeEventListener('scroll', this.handleScroll);
+    //     this.shopContainer.onscroll = e => {
+    //         console.log('SCROLL EVENT:', e);
+    //         this.handleScroll();
+    //     }
     // }
 
-    handleScroll = (event) =>{
+    // // componentWillUnmount(){
+    // //     window.removeEventListener('scroll', this.handleScroll);
+    // // }
 
-        if(this.state.counter === 14){
-            this.setState({
-                counter: 0
-            })
-        }
-        else{
-            this.setState({
-                counter: this.state.counter + 1
-            })
-        }
-    }
+    // handleScroll = (event) =>{
+
+    //     if(this.state.counter === 14){
+    //         this.setState({
+    //             counter: 0
+    //         })
+    //     }
+    //     else{
+    //         this.setState({
+    //             counter: this.state.counter + 1
+    //         })
+    //     }
+    // }
 
     render(){
         return(
-            <div className="shop-container" ref={e => this.shopContainer = e}>
-                <Macarons item={this.state.counter}  />
+            <div className="shop-container" >
+                <Macarons />
             </div>
         )
     }
