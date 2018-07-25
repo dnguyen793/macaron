@@ -21,10 +21,25 @@ img {
 /******************************************************************/
 /************************ macaron-item.js *************************/
 /******************************************************************/
+
 .item-container{
     width: 100%;
     margin: 0 auto;
     height: 150%;
+    position: relative;
+}
+
+.item-info {
+    position: fixed;
+    left: 6rem;
+}
+
+.item-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: fixed;
+    z-index: -1;
 }
 
 p.item-name {

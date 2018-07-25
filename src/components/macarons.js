@@ -45,7 +45,7 @@ class Macarons extends Component{
 
         return(
             <div className="item-container">
-                <div >
+                <div className="item-info">
                     <p className="item-name">{name}</p>
                     <p className="item-price">$3.00</p>
                     <button className="add-to-box">Add to Box</button>
